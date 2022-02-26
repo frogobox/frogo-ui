@@ -1,0 +1,16 @@
+name: 'Frogo-Android-UI-Kit'
+description: 'Library Easy UI Kit Based on Design Guideline, Full and Clear Documentation, :books:'
+author: 'Muhammad Faisal Amir - Frogobox'
+branding:
+  icon: archive
+  color: green
+inputs:
+  myInput:
+    description: 'Input to use'
+    required: false
+    default: 'world'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.myInput }}
