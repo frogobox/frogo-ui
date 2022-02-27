@@ -1,33 +1,25 @@
 ![ScreenShoot Apps](docs/image/ss_banner.png?raw=true)
 
-## About This Project
-[![](https://jitpack.io/v/frogobox/frogo-android-ui-kit.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-android-ui-kit)
-[![Scan with Detekt](https://github.com/frogobox/frogo-android-ui-kit/actions/workflows/detekt-analysis.yml/badge.svg)](https://github.com/frogobox/frogo-android-ui-kit/actions/workflows/detekt-analysis.yml)
-[![Generate APK / AAB](https://github.com/frogobox/frogo-android-ui-kit/actions/workflows/generate-apk-aab.yml/badge.svg)](https://github.com/frogobox/frogo-android-ui-kit/actions/workflows/generate-apk-aab.yml)
-
-- Follow-up project from [frogo-ui-kit](https://github.com/amirisback/frogo-ui-kit)
+## About This Project (release-and-work-in-progress 👷🔧️👷‍♀️⛏)
+- Privacy Policy [Click Here](https://github.com/frogobox/frogo-ui/blob/master/PRIVACY-POLICY.md)
+- LICENSE [Click Here](https://github.com/frogobox/frogo-ui/blob/master/LICENSE)
 - UI Kit for helping you in apps development
-
-## Migrate from frogo-ui-kit
-- Just renaming package
-- com.frogobox.frogodesignkit >> com.frogobox.uikit
+- Follow-up project from [frogo-ui-kit](https://github.com/amirisback/frogo-ui-kit)
 
 ## Screen Shoot
-| UI KIT LIST |  UI KIT GRID              |
-|:------------------:|:----------------------------:|
+| UI KIT LIST        |  UI KIT GRID              |
+|:------------------:|:-------------------------:|
 |<img width="200px" height="360px" src="docs/image/ss_home_list.png"> | <img width="200px" height="360px" src="docs/image/ss_home_grid.png"> |
-
 
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.0.5
+    ~ Beta Release
+    $version_release = comming soon
 
 What's New??
 
-    * Update Build Gradle Latest Version *
-    * Jetpack Compose Support *
-    * build.gradle.kts / Kotlin DSL *
+    * Comming Soon *
 
 ## Download this project
 
@@ -63,14 +55,14 @@ allprojects {
 
     dependencies {
         // library frogo-android-ui-kit
-        implementation 'com.github.frogobox:frogo-android-ui-kit:1.0.5'
+        implementation 'com.github.frogobox:frogo-android-ui-kit:comming soon'
     }
 
 #### <Option 2> Kotlin DSL Gradle
 
     dependencies {
         // library frogo-android-ui-kit
-        implementation("com.github.frogobox:frogo-android-ui-kit:1.0.5")
+        implementation("com.github.frogobox:frogo-android-ui-kit:comming soon")
     }
 
 ## Documentation
