@@ -81,7 +81,8 @@ android {
 
 dependencies {
 
-    implementation(project(":frogouikit"))
+    implementation(project(":frogoui"))
+    implementation(project(":frogocoreui"))
 
     implementation(compose.ui)
     implementation(compose.runtime)

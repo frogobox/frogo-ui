@@ -1,4 +1,4 @@
-package com.frogobox.uikit.ui.theme
+package com.frogobox.frogocoreui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

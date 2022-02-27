@@ -11,9 +11,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.frogobox.appuikit.model.People
 import com.frogobox.appuikit.ui.theme.FrogoAndroidUIKitTheme
+import com.frogobox.frogocoreui.DataBuilder
+import com.frogobox.frogocoreui.FrogoComposeListItemType1
 import com.frogobox.recycler.compose.FrogoLazyColumn
-import com.frogobox.uikit.DataBuilder
-import com.frogobox.uikit.FrogoComposeListItemType1
 
 class ComposeActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

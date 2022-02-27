@@ -1,4 +1,4 @@
-package com.frogobox.uikit
+package com.frogobox.frogocoreui
 
 /*
  * Created by faisalamir on 10/09/21
