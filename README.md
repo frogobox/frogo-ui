@@ -2,6 +2,7 @@
 
 ## About This Project (release-and-work-in-progress 👷🔧️👷‍♀️⛏)
 - UI Kit for helping you in apps development
+- Avaiable for android and desktop
 - Follow-up project from [frogo-ui-kit](https://github.com/amirisback/frogo-ui-kit)
 - Privacy Policy [Click Here](https://github.com/frogobox/frogo-ui/blob/master/PRIVACY-POLICY.md)
 - License [Click Here](https://github.com/frogobox/frogo-ui/blob/master/LICENSE)
@@ -15,7 +16,7 @@
 This Is Latest Release
 
     ~ Beta Release
-    $version_release = comming soon
+    $version_release = 0.0.1-beta01
 
 What's New??
 
@@ -54,15 +55,15 @@ allprojects {
 #### <Option 1> Groovy Gradle
 
     dependencies {
-        // library frogo-android-ui-kit
-        implementation 'com.github.frogobox:frogo-android-ui-kit:comming soon'
+        // library frogo-ui
+        implementation 'com.github.frogobox:frogo-ui:0.0.1-beta01'
     }
 
 #### <Option 2> Kotlin DSL Gradle
 
     dependencies {
-        // library frogo-android-ui-kit
-        implementation("com.github.frogobox:frogo-android-ui-kit:comming soon")
+        // library frogo-ui
+        implementation("com.github.frogobox:frogo-ui:0.0.1-beta01")
     }
 
 ## Documentation
