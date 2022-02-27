@@ -1,10 +1,10 @@
 ![ScreenShoot Apps](docs/image/ss_banner.png?raw=true)
 
 ## About This Project (release-and-work-in-progress 👷🔧️👷‍♀️⛏)
-- Privacy Policy [Click Here](https://github.com/frogobox/frogo-ui/blob/master/PRIVACY-POLICY.md)
-- LICENSE [Click Here](https://github.com/frogobox/frogo-ui/blob/master/LICENSE)
 - UI Kit for helping you in apps development
 - Follow-up project from [frogo-ui-kit](https://github.com/amirisback/frogo-ui-kit)
+- Privacy Policy [Click Here](https://github.com/frogobox/frogo-ui/blob/master/PRIVACY-POLICY.md)
+- License [Click Here](https://github.com/frogobox/frogo-ui/blob/master/LICENSE)
 
 ## Screen Shoot
 | UI KIT LIST        |  UI KIT GRID              |
