@@ -13,7 +13,7 @@
 
 object ProjectSetting {
 
-    const val NAME_APP = "Frogo Android UI Kit"
+    const val NAME_APP = "Frogo UI"
     val NAME_APK = NAME_APP.toLowerCase().replace(" ", "-")
 
     const val APP_DOMAIN = "com"
@@ -22,9 +22,9 @@ object ProjectSetting {
 
     const val LIBRARY_NAME = "uikit"
 
-    const val VERSION_MAJOR = 1
+    const val VERSION_MAJOR = 0
     const val VERSION_MINOR = 0
-    const val VERSION_PATCH = 5
+    const val VERSION_PATCH = 1
 
     const val PROJECT_COMPILE_SDK = 31
     const val PROJECT_MIN_SDK = 21

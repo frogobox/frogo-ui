@@ -16,5 +16,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "FrogoAndroidUIKit"
+rootProject.name = "FrogoUI"
 include(":app", ":frogouikit")
