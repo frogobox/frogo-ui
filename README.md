@@ -1,6 +1,8 @@
 ![ScreenShoot Apps](docs/image/ss_banner.png?raw=true)
 
 ## About This Project (release-and-work-in-progress 👷🔧️👷‍♀️⛏)
+[![](https://jitpack.io/v/frogobox/frogo-ui.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-ui)
+
 - UI Kit for helping you in apps development
 - Avaiable for android and desktop
 - Follow-up project from [frogo-ui-kit](https://github.com/amirisback/frogo-ui-kit)
