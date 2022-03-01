@@ -1,4 +1,4 @@
-package com.frogobox.frogocoreui.theme
+package com.frogobox.coreui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

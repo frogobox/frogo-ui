@@ -1,4 +1,4 @@
-package com.frogobox.frogocoreui
+package com.frogobox.coreui
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -8,9 +8,9 @@ import androidx.compose.material.Card
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import com.frogobox.frogocoreui.theme.Purple700
-import com.frogobox.frogocoreui.theme.dimen_16dp
-import com.frogobox.frogocoreui.theme.dimen_2dp
+import com.frogobox.coreui.theme.Purple700
+import com.frogobox.coreui.theme.dimen_16dp
+import com.frogobox.coreui.theme.dimen_2dp
 
 /*
  * Created by faisalamir on 09/09/21

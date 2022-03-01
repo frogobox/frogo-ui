@@ -1,4 +1,4 @@
-package com.frogobox.frogocoreui
+package com.frogobox.coreui
 
 /*
  * Created by faisalamir on 10/09/21
