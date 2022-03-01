@@ -43,10 +43,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 
-    composeOptions {
-        kotlinCompilerExtensionVersion = Dependency.COMPOSE_VERSION
-    }
-
     packagingOptions {
         resources {
             excludes += setOf("META-INF/AL2.0", "META-INF/LGPL2.1")
@@ -79,6 +75,9 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.4.1")
     implementation("com.google.android.material:material:1.5.0")
     implementation("de.hdodenhof:circleimageview:3.1.0")
+
+    debugImplementation(compose.ui)
+    debugImplementation(compose.uiTooling)
 
 }
 

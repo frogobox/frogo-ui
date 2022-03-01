@@ -61,10 +61,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 
-    composeOptions {
-        kotlinCompilerExtensionVersion = Dependency.COMPOSE_VERSION
-    }
-
     packagingOptions {
         resources {
             excludes += setOf("META-INF/AL2.0", "META-INF/LGPL2.1")
@@ -103,5 +99,8 @@ dependencies {
     implementation("com.google.code.gson:gson:2.9.0")
 
     implementation("com.github.amirisback:frogo-recycler-view:4.0.4")
+
+    debugImplementation(compose.ui)
+    debugImplementation(compose.uiTooling)
 
 }
