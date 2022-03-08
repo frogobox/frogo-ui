@@ -87,16 +87,16 @@ dependencies {
     implementation(compose.material)
     implementation(compose.materialIconsExtended)
 
-    implementation("androidx.core:core-ktx:1.7.0")
-    implementation("androidx.appcompat:appcompat:1.4.1")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.3")
-    implementation("androidx.legacy:legacy-support-v4:1.0.0")
 
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.4.1")
-    implementation("androidx.activity:activity-compose:1.4.0")
+    implementation(Androidx.Core.ktx)
+    implementation(Androidx.appCompat)
+    implementation(Androidx.constraintLayout)
 
-    implementation("com.google.android.material:material:1.5.0")
-    implementation("com.google.code.gson:gson:2.9.0")
+    implementation(Androidx.Lifecycle.runtimeKtx)
+    implementation(Compose.activity)
+
+    implementation(Google.material)
+    implementation(Google.gson)
 
     implementation("com.github.amirisback:frogo-recycler-view:4.0.4")
 

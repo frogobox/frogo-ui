@@ -61,8 +61,6 @@ dependencies {
 
     implementation(project(":frogocoreui"))
 
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Dependency.KOTLIN_VERSION}")
-
     implementation(compose.ui)
     implementation(compose.runtime)
     implementation(compose.preview)
@@ -70,11 +68,10 @@ dependencies {
     implementation(compose.material)
     implementation(compose.materialIconsExtended)
 
-    implementation("androidx.appcompat:appcompat:1.4.1")
-    implementation("androidx.activity:activity-compose:1.4.0")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.4.1")
-    implementation("com.google.android.material:material:1.5.0")
-    implementation("de.hdodenhof:circleimageview:3.1.0")
+    implementation(Androidx.appCompat)
+    implementation(Compose.activity)
+    implementation(Google.material)
+    implementation(Util.hdodenhofCircleImageView)
 
     debugImplementation(compose.ui)
     debugImplementation(compose.uiTooling)
