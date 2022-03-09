@@ -17,4 +17,6 @@ object Dependency {
     const val KOTLIN_VERSION = Version.JetBrains.kotlin
     const val COMPOSE_MULTIPLATFORM_VERSION = Version.Compose.composeMultiPlatform
 
+    const val FrogoRecyclerView = "com.github.amirisback:frogo-recycler-view:4.0.4"
+
 }

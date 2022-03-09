@@ -98,7 +98,7 @@ dependencies {
     implementation(Google.material)
     implementation(Google.gson)
 
-    implementation("com.github.amirisback:frogo-recycler-view:4.0.4")
+    implementation(Dependency.FrogoRecyclerView)
 
     debugImplementation(compose.ui)
     debugImplementation(compose.uiTooling)
