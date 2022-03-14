@@ -1,7 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("org.jetbrains.compose") version Dependency.COMPOSE_MULTIPLATFORM_VERSION
+    id("org.jetbrains.compose") version DependencyGradle.COMPOSE_MULTIPLATFORM_VERSION
     id("kotlin-kapt")
 }
 
@@ -93,12 +93,12 @@ dependencies {
     implementation(Androidx.constraintLayout)
 
     implementation(Androidx.Lifecycle.runtimeKtx)
-    implementation(Compose.activity)
+    implementation(Androidx.Compose.activity)
 
     implementation(Google.material)
     implementation(Google.gson)
 
-    implementation(Dependency.FrogoRecyclerView)
+    implementation(DependencyGradle.FrogoRecyclerView)
 
     debugImplementation(compose.ui)
     debugImplementation(compose.uiTooling)

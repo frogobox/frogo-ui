@@ -1,7 +1,7 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
-    id("org.jetbrains.compose") version Dependency.COMPOSE_MULTIPLATFORM_VERSION
+    id("org.jetbrains.compose") version DependencyGradle.COMPOSE_MULTIPLATFORM_VERSION
     id("kotlin-kapt")
     `maven-publish`
 }
@@ -69,7 +69,7 @@ dependencies {
     implementation(compose.materialIconsExtended)
 
     implementation(Androidx.appCompat)
-    implementation(Compose.activity)
+    implementation(Androidx.Compose.activity)
     implementation(Google.material)
     implementation(Util.hdodenhofCircleImageView)
 

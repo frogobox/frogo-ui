@@ -146,6 +146,7 @@
     <dimen name="frogo_dimen_font_8sp">8sp</dimen>
     <dimen name="frogo_dimen_font_9sp">9sp</dimen>
     <dimen name="frogo_dimen_font_10sp">10sp</dimen>
+
     <dimen name="frogo_dimen_font_11sp">11sp</dimen>
     <dimen name="frogo_dimen_font_12sp">12sp</dimen>
     <dimen name="frogo_dimen_font_13sp">13sp</dimen>
@@ -153,14 +154,60 @@
     <dimen name="frogo_dimen_font_15sp">15sp</dimen>
     <dimen name="frogo_dimen_font_16sp">16sp</dimen>
     <dimen name="frogo_dimen_font_18sp">18sp</dimen>
+
     <dimen name="frogo_dimen_font_20sp">20sp</dimen>
     <dimen name="frogo_dimen_font_22sp">22sp</dimen>
     <dimen name="frogo_dimen_font_24sp">24sp</dimen>
     <dimen name="frogo_dimen_font_26sp">26sp</dimen>
     <dimen name="frogo_dimen_font_28sp">28sp</dimen>
     <dimen name="frogo_dimen_font_30sp">30sp</dimen>
+
     <dimen name="frogo_dimen_font_32sp">32sp</dimen>
     <dimen name="frogo_dimen_font_34sp">34sp</dimen>
     <dimen name="frogo_dimen_font_36sp">36sp</dimen>
+    <dimen name="frogo_dimen_font_38sp">38sp</dimen>
+    <dimen name="frogo_dimen_font_40sp">40sp</dimen>
+
+    <dimen name="frogo_dimen_font_42sp">42sp</dimen>
+    <dimen name="frogo_dimen_font_44sp">44sp</dimen>
+    <dimen name="frogo_dimen_font_46sp">46sp</dimen>
+    <dimen name="frogo_dimen_font_48sp">48sp</dimen>
+    <dimen name="frogo_dimen_font_50sp">50sp</dimen>
+
+    <dimen name="frogo_dimen_font_52sp">52sp</dimen>
+    <dimen name="frogo_dimen_font_54sp">54sp</dimen>
+    <dimen name="frogo_dimen_font_56sp">56sp</dimen>
+    <dimen name="frogo_dimen_font_58sp">58sp</dimen>
+    <dimen name="frogo_dimen_font_60sp">60sp</dimen>
+
+    <dimen name="frogo_dimen_font_62sp">62sp</dimen>
+    <dimen name="frogo_dimen_font_64sp">64sp</dimen>
+    <dimen name="frogo_dimen_font_66sp">66sp</dimen>
+    <dimen name="frogo_dimen_font_68sp">68sp</dimen>
+    <dimen name="frogo_dimen_font_70sp">70sp</dimen>
+
+    <dimen name="frogo_dimen_font_72sp">72sp</dimen>
+    <dimen name="frogo_dimen_font_74sp">74sp</dimen>
+    <dimen name="frogo_dimen_font_76sp">76sp</dimen>
+    <dimen name="frogo_dimen_font_78sp">78sp</dimen>
+    <dimen name="frogo_dimen_font_80sp">80sp</dimen>
+
+    <dimen name="frogo_dimen_font_82sp">82sp</dimen>
+    <dimen name="frogo_dimen_font_84sp">84sp</dimen>
+    <dimen name="frogo_dimen_font_86sp">86sp</dimen>
+    <dimen name="frogo_dimen_font_88sp">88sp</dimen>
+    <dimen name="frogo_dimen_font_90sp">90sp</dimen>
+
+    <dimen name="frogo_dimen_font_92sp">92sp</dimen>
+    <dimen name="frogo_dimen_font_94sp">94sp</dimen>
+    <dimen name="frogo_dimen_font_96sp">96sp</dimen>
+    <dimen name="frogo_dimen_font_98sp">98sp</dimen>
+    <dimen name="frogo_dimen_font_100sp">100sp</dimen>
+
+    <dimen name="frogo_dimen_font_102sp">102sp</dimen>
+    <dimen name="frogo_dimen_font_104sp">104sp</dimen>
+    <dimen name="frogo_dimen_font_106sp">106sp</dimen>
+    <dimen name="frogo_dimen_font_108sp">108sp</dimen>
+    <dimen name="frogo_dimen_font_110sp">110sp</dimen>
 
 </resources>
