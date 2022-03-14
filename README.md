@@ -2,6 +2,9 @@
 
 ## About This Project (release-and-work-in-progress 👷🔧️👷‍♀️⛏)
 [![](https://jitpack.io/v/frogobox/frogo-ui.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-ui)
+[![Android CI](https://github.com/frogobox/frogo-ui/actions/workflows/android-ci.yml/badge.svg)](https://github.com/frogobox/frogo-ui/actions/workflows/android-ci.yml)
+[![Scan with Detekt](https://github.com/frogobox/frogo-ui/actions/workflows/detekt-analysis.yml/badge.svg)](https://github.com/frogobox/frogo-ui/actions/workflows/detekt-analysis.yml)
+[![pages-build-deployment](https://github.com/frogobox/frogo-ui/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/frogobox/frogo-ui/actions/workflows/pages/pages-build-deployment)
 
 - UI Kit for helping you in apps development
 - Avaiable for android and desktop
