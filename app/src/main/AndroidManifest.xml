@@ -10,14 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".animation.SampleFrogoAnimationTransitionActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.Transition" />
+        <activity
             android:name=".animation.SampleFrogoAnimationActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/AppTheme.Transition" />
         <activity
             android:name=".compose.ComposeActivity"
             android:exported="true"
             android:theme="@style/AppTheme" />
         <activity android:name=".recycler.RecyclerViewDetailActivity" />
         <activity android:name=".recycler.RecyclerViewActivity" />
+        <activity
+            android:name=".loadingindicator.SampleFrogoLoadingIndicatorViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".loadingindicator.DetailLoadingIndicatorActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -27,16 +38,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name="com.frogobox.appuikit.loadingindicator.SampleFrogoLoadingIndicatorViewActivity"
-            android:exported="true"
-            android:label="@string/app_name" />
-
-        <activity
-            android:name="com.frogobox.appuikit.loadingindicator.DetailLoadingIndicatorActivity"
-            android:exported="true" />
-
     </application>
 
 </manifest>

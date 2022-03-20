@@ -1,5 +1,6 @@
 package com.frogobox.appuikit.animation
 
+import android.content.Intent
 import android.os.Bundle
 import com.frogobox.animation.FrogoAnimation
 import com.frogobox.animation.core.Attention
@@ -21,6 +22,15 @@ class SampleFrogoAnimationActivity : BaseActivity<ActivitySampleFrogoAnimationBi
             setRepeated()
             setDuration(1500)
         }.start()
+
+        binding.btnTransition.setOnClickListener {
+            startActivity(
+                Intent(
+                    this@SampleFrogoAnimationActivity,
+                    SampleFrogoAnimationTransitionActivity::class.java
+                )
+            )
+        }
 
     }
 

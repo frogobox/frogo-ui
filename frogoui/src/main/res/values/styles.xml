@@ -125,16 +125,17 @@
         <item name="indicatorName">BallPulseIndicator</item>
     </style>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="android:windowAnimationStyle">@style/WindowAnimations</item>
+
+    <style name="FrogoFlyWindowAnimations">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/fly_exit</item>
+        <item name="android:activityCloseEnterAnimation">@android:anim/bounce_interpolator</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/bounce_interpolator</item>
     </style>
 
-    <style name="WindowAnimations">
-        <!--        <item name="android:windowEnterAnimation">@anim/enter_activity</item>-->
-        <!--        <item name="android:windowExitAnimation">@anim/exit_activity</item>-->
-        <item name="android:activityOpenEnterAnimation">@android:anim/cycle_interpolator</item>
-        <item name="android:activityOpenExitAnimation">@android:anim/cycle_interpolator</item>
+    <style name="FrogoWindmillWindowAnimations">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/windmill_exit</item>
         <item name="android:activityCloseEnterAnimation">@android:anim/bounce_interpolator</item>
         <item name="android:activityCloseExitAnimation">@android:anim/bounce_interpolator</item>
     </style>
