@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * Created by Faisal Amir
+ *
+ * Name     : Muhammad Faisal Amir
+ * E-mail   : faisalamircs@gmail.com
+ * Github   : github.com/amirisback
+ *
+ * Copyright (C) 2022 Frogobox Inc.
+ * All rights reserved
+ *
+ -->
+
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:fillAfter="true">
 
@@ -8,217 +21,217 @@
 
     <rotate
         android:duration="100"
-        android:toDegrees="5"
+        android:pivotX="50%"
         android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
+        android:duration="100"
         android:startOffset="100"
-        android:duration="100"
         android:toYDelta="-3%p" />
 
     <rotate
+        android:duration="100"
+        android:pivotX="50%"
+        android:pivotY="50%"
         android:startOffset="100"
-        android:duration="100"
-        android:toDegrees="5"
-        android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
+        android:duration="100"
         android:startOffset="200"
-        android:duration="100"
         android:toYDelta="-3%p" />
 
     <rotate
+        android:duration="100"
+        android:pivotX="50%"
+        android:pivotY="50%"
         android:startOffset="200"
-        android:duration="100"
-        android:toDegrees="5"
-        android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
+        android:duration="100"
         android:startOffset="300"
-        android:duration="100"
         android:toYDelta="-3%p" />
 
     <rotate
+        android:duration="100"
+        android:pivotX="50%"
+        android:pivotY="50%"
         android:startOffset="300"
-        android:duration="100"
-        android:toDegrees="5"
-        android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
+        android:duration="100"
         android:startOffset="400"
-        android:duration="100"
         android:toYDelta="-3%p" />
 
     <rotate
+        android:duration="100"
+        android:pivotX="50%"
+        android:pivotY="50%"
         android:startOffset="400"
-        android:duration="100"
-        android:toDegrees="5"
-        android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
+        android:duration="100"
         android:startOffset="500"
-        android:duration="100"
         android:toYDelta="-3%p" />
 
     <rotate
+        android:duration="100"
+        android:pivotX="50%"
+        android:pivotY="50%"
         android:startOffset="500"
-        android:duration="100"
-        android:toDegrees="5"
-        android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
+        android:duration="100"
         android:startOffset="600"
-        android:duration="100"
         android:toYDelta="-3%p" />
 
     <rotate
+        android:duration="100"
+        android:pivotX="50%"
+        android:pivotY="50%"
         android:startOffset="600"
-        android:duration="100"
-        android:toDegrees="5"
-        android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
+        android:duration="100"
         android:startOffset="700"
-        android:duration="100"
         android:toYDelta="-3%p" />
 
     <rotate
+        android:duration="100"
+        android:pivotX="50%"
+        android:pivotY="50%"
         android:startOffset="700"
-        android:duration="100"
-        android:toDegrees="5"
-        android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
+        android:duration="100"
         android:startOffset="800"
-        android:duration="100"
         android:toYDelta="-3%p" />
 
     <rotate
+        android:duration="100"
+        android:pivotX="50%"
+        android:pivotY="50%"
         android:startOffset="800"
-        android:duration="100"
-        android:toDegrees="5"
-        android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
+        android:duration="100"
         android:startOffset="900"
-        android:duration="100"
         android:toYDelta="-3%p" />
 
     <rotate
+        android:duration="100"
+        android:pivotX="50%"
+        android:pivotY="50%"
         android:startOffset="900"
-        android:duration="100"
-        android:toDegrees="5"
-        android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
+        android:duration="100"
         android:startOffset="1000"
-        android:duration="100"
         android:toYDelta="-3%p" />
 
     <rotate
+        android:duration="100"
+        android:pivotX="50%"
+        android:pivotY="50%"
         android:startOffset="1000"
-        android:duration="100"
-        android:toDegrees="5"
-        android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
+        android:duration="100"
         android:startOffset="1100"
-        android:duration="100"
         android:toYDelta="-3%p" />
 
     <rotate
+        android:duration="100"
+        android:pivotX="50%"
+        android:pivotY="50%"
         android:startOffset="1100"
-        android:duration="100"
-        android:toDegrees="5"
-        android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
+        android:duration="100"
         android:startOffset="1200"
-        android:duration="100"
         android:toYDelta="-3%p" />
 
     <rotate
+        android:duration="100"
+        android:pivotX="50%"
+        android:pivotY="50%"
         android:startOffset="1200"
-        android:duration="100"
-        android:toDegrees="5"
-        android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
+        android:duration="100"
         android:startOffset="1300"
-        android:duration="100"
         android:toYDelta="-3%p" />
 
     <rotate
+        android:duration="100"
+        android:pivotX="50%"
+        android:pivotY="50%"
         android:startOffset="1300"
-        android:duration="100"
-        android:toDegrees="5"
-        android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
+        android:duration="100"
         android:startOffset="1400"
-        android:duration="100"
         android:toYDelta="-3%p" />
 
     <rotate
+        android:duration="100"
+        android:pivotX="50%"
+        android:pivotY="50%"
         android:startOffset="1400"
-        android:duration="100"
-        android:toDegrees="5"
-        android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
+        android:duration="100"
         android:startOffset="1500"
-        android:duration="100"
         android:toYDelta="-3%p" />
 
     <rotate
+        android:duration="100"
+        android:pivotX="50%"
+        android:pivotY="50%"
         android:startOffset="1500"
-        android:duration="100"
-        android:toDegrees="5"
-        android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:toDegrees="5" />
 
     <translate
-        android:startOffset="1600"
         android:duration="100"
+        android:startOffset="1600"
         android:toYDelta="-3%p" />
 
     <rotate
-        android:startOffset="1600"
         android:duration="100"
-        android:toDegrees="5"
+        android:pivotX="50%"
         android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:startOffset="1600"
+        android:toDegrees="5" />
 
     <translate
-        android:startOffset="1700"
         android:duration="100"
+        android:startOffset="1700"
         android:toYDelta="-3%p" />
 
     <rotate
-        android:startOffset="1700"
         android:duration="100"
-        android:toDegrees="5"
+        android:pivotX="50%"
         android:pivotY="50%"
-        android:pivotX="50%"/>
+        android:startOffset="1700"
+        android:toDegrees="5" />
 
     <translate
-        android:startOffset="1800"
         android:duration="1000"
+        android:startOffset="1800"
         android:toXDelta="15%p" />
 
 </set>
