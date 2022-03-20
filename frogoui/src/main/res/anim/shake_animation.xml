@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="false">
+
+    <translate
+        android:duration="100"
+        android:toXDelta="5%p" />
+
+    <translate
+        android:startOffset="100"
+        android:duration="100"
+        android:toXDelta="-10%p" />
+
+    <translate
+        android:startOffset="200"
+        android:duration="100"
+        android:toXDelta="8%p" />
+
+    <translate
+        android:startOffset="300"
+        android:duration="100"
+        android:toXDelta="-6%p" />
+
+    <translate
+        android:startOffset="400"
+        android:duration="100"
+        android:toXDelta="3%p" />
+
+    <translate
+        android:startOffset="500"
+        android:duration="100"
+        android:toXDelta="-2%p" />
+
+</set>

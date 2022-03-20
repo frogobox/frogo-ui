@@ -4,8 +4,11 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
+import com.frogobox.appuikit.animation.SampleFrogoAnimationActivity
+import com.frogobox.appuikit.compose.ComposeActivity
 import com.frogobox.appuikit.core.BaseActivity
 import com.frogobox.appuikit.databinding.ActivityMainBinding
+import com.frogobox.appuikit.loadingindicator.SampleFrogoLoadingIndicatorViewActivity
 import com.frogobox.appuikit.model.Main
 import com.frogobox.appuikit.recycler.RecyclerViewActivity
 import com.frogobox.recycler.core.FrogoRecyclerNotifyListener
@@ -26,6 +29,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
         val data = mutableListOf<Main>()
         data.add(Main("RecyclerView Layout", Intent(this, RecyclerViewActivity::class.java)))
         data.add(Main("Compose (Experimental)", Intent(this, ComposeActivity::class.java)))
+        data.add(Main("Frogo Animation", Intent(this, SampleFrogoAnimationActivity::class.java)))
+        data.add(Main("Frogo Loading Indicator", Intent(this, SampleFrogoLoadingIndicatorViewActivity::class.java)))
         return data
     }
 

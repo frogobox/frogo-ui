@@ -101,4 +101,42 @@
 
     <!-- Image -->
 
+    <style name="FrogoLoadingIndicatorView">
+        <item name="minWidth">48dp</item>
+        <item name="maxWidth">48dp</item>
+        <item name="minHeight">48dp</item>
+        <item name="maxHeight">48dp</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+
+    <style name="FrogoLoadingIndicatorView.Large">
+        <item name="minWidth">76dp</item>
+        <item name="maxWidth">76dp</item>
+        <item name="minHeight">76dp</item>
+        <item name="maxHeight">76dp</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+
+    <style name="FrogoLoadingIndicatorView.Small">
+        <item name="minWidth">24dp</item>
+        <item name="maxWidth">24dp</item>
+        <item name="minHeight">24dp</item>
+        <item name="maxHeight">24dp</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@style/WindowAnimations</item>
+    </style>
+
+    <style name="WindowAnimations">
+        <!--        <item name="android:windowEnterAnimation">@anim/enter_activity</item>-->
+        <!--        <item name="android:windowExitAnimation">@anim/exit_activity</item>-->
+        <item name="android:activityOpenEnterAnimation">@android:anim/cycle_interpolator</item>
+        <item name="android:activityOpenExitAnimation">@android:anim/cycle_interpolator</item>
+        <item name="android:activityCloseEnterAnimation">@android:anim/bounce_interpolator</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/bounce_interpolator</item>
+    </style>
+
 </resources>

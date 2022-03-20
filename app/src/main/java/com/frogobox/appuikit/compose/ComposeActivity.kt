@@ -1,4 +1,4 @@
-package com.frogobox.appuikit
+package com.frogobox.appuikit.compose
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,6 +9,7 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.frogobox.appuikit.MainActivity
 import com.frogobox.appuikit.model.People
 import com.frogobox.appuikit.ui.theme.FrogoAndroidUIKitTheme
 import com.frogobox.coreui.DataBuilder

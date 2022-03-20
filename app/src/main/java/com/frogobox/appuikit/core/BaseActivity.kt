@@ -27,9 +27,11 @@ import com.google.android.material.tabs.TabLayoutMediator
  */
 abstract class BaseActivity<VB : ViewBinding> : AppCompatActivity() {
 
-    protected lateinit var binding: VB
-
     abstract fun setupViewBinding() : VB
+
+    protected val binding: VB by lazy {
+        setupViewBinding()
+    }
 
     protected val mActivity: AppCompatActivity by lazy {
         this
@@ -37,7 +39,6 @@ abstract class BaseActivity<VB : ViewBinding> : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = setupViewBinding()
         setContentView(binding.root)
     }
 
