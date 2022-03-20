@@ -28,6 +28,25 @@ What's New??
     * Beta Release *
     * Avaiable For Android And Desktop *
 
+## Include Library
+<table>
+    <tr>
+        <th>No.</th>
+        <th>Library Name</th>
+        <th>Docs</th>
+    </tr>
+    <tr>
+        <td>1.</td>
+        <td>FrogoAnimation</td>
+        <td><a href="https://github.com/frogobox/frogo-ui#frogoanimation">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>2.</td>
+        <td>FrogoLoadingIndicatorView</td>
+        <td><a href="https://github.com/frogobox/frogo-ui#frogoloadingindicatorview">Click Here</a></td>
+    </tr>
+</table>
+
 ## Download this project
 
 ### Step 1. Add the JitPack repository to your build file (build.gradle : Project)
