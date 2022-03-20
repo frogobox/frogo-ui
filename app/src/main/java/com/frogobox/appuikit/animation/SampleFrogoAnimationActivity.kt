@@ -2,8 +2,8 @@ package com.frogobox.appuikit.animation
 
 import android.content.Intent
 import android.os.Bundle
-import com.frogobox.animation.FrogoAnimation
-import com.frogobox.animation.core.Attention
+import com.frogobox.ui.animation.FrogoAnimation
+import com.frogobox.ui.animation.core.Attention
 import com.frogobox.appuikit.core.BaseActivity
 import com.frogobox.appuikit.databinding.ActivitySampleFrogoAnimationBinding
 

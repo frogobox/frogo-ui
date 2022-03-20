@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 
-package com.frogobox.animation.core
+package com.frogobox.ui.animation.core
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator

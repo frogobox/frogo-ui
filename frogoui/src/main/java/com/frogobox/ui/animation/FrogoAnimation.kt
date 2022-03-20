@@ -35,7 +35,7 @@
  *
  */
 
-package com.frogobox.animation
+package com.frogobox.ui.animation
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
