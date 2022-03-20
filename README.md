@@ -21,7 +21,7 @@
 This Is Latest Release
 
     ~ Beta Release
-    $version_release = 0.0.1-beta05
+    $version_release = 0.0.1-beta06
 
 What's New??
 
@@ -81,14 +81,14 @@ allprojects {
 
     dependencies {
         // library frogo-ui
-        implementation 'com.github.frogobox:frogo-ui:0.0.1-beta05'
+        implementation 'com.github.frogobox:frogo-ui:0.0.1-beta06'
     }
 
 #### <Option 2> Kotlin DSL Gradle
 
     dependencies {
         // library frogo-ui
-        implementation("com.github.frogobox:frogo-ui:0.0.1-beta05")
+        implementation("com.github.frogobox:frogo-ui:0.0.1-beta06")
     }
 
 ## Documentation
