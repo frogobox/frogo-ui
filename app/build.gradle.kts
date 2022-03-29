@@ -61,15 +61,13 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_11.toString()
+    }
+
     packagingOptions {
         resources {
             excludes += setOf("META-INF/AL2.0", "META-INF/LGPL2.1")
-        }
-    }
-
-    tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
-        kotlinOptions {
-            jvmTarget = JavaVersion.VERSION_11.toString()
         }
     }
 
@@ -77,8 +75,8 @@ android {
 
 dependencies {
 
-    implementation(project(":frogoui"))
-    implementation(project(":frogocoreui"))
+    implementation(project(DependencyGradle.FROGO_PATH_CORE_UI))
+    implementation(project(DependencyGradle.FROGO_PATH_UI))
 
     implementation(compose.ui)
     implementation(compose.runtime)
@@ -86,7 +84,6 @@ dependencies {
     implementation(compose.uiTooling)
     implementation(compose.material)
     implementation(compose.materialIconsExtended)
-
 
     implementation(Androidx.Core.ktx)
     implementation(Androidx.appCompat)

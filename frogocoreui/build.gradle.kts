@@ -55,7 +55,7 @@ publishing {
     }
 
     repositories {
-        maven { url = uri(Util.jitpackUrl) }
+        maven(Util.jitpackUrl)
     }
 
 }

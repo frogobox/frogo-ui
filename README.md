@@ -21,7 +21,7 @@
 This Is Latest Release
 
     ~ Beta Release
-    $version_release = 0.0.1-beta07
+    $version_release = 0.0.1-beta08
 
 What's New??
 
@@ -70,7 +70,7 @@ What's New??
 allprojects {
     repositories {
         ...
-        maven { url = uri("https://jitpack.io") }
+        maven("https://jitpack.io")
     }
 }
 ```
@@ -81,14 +81,14 @@ allprojects {
 
     dependencies {
         // library frogo-ui
-        implementation 'com.github.frogobox:frogo-ui:0.0.1-beta07'
+        implementation 'com.github.frogobox:frogo-ui:0.0.1-beta08'
     }
 
 #### <Option 2> Kotlin DSL Gradle
 
     dependencies {
         // library frogo-ui
-        implementation("com.github.frogobox:frogo-ui:0.0.1-beta07")
+        implementation("com.github.frogobox:frogo-ui:0.0.1-beta08")
     }
 
 ## Documentation
