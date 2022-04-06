@@ -73,7 +73,11 @@ dependencies {
     implementation(Androidx.appCompat)
     implementation(Androidx.Compose.activity)
     implementation(Google.material)
+
+    implementation(GitHub.glide)
     implementation(Util.hdodenhofCircleImageView)
+
+    kapt(GitHub.glideCompiler)
 
     debugImplementation(compose.ui)
     debugImplementation(compose.uiTooling)
