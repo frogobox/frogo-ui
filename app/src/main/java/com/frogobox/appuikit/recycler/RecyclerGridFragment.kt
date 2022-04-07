@@ -13,7 +13,6 @@ import com.frogobox.appuikit.databinding.FragmentRecyclerGridBinding
 import com.frogobox.appuikit.model.Layout
 import com.frogobox.recycler.core.FrogoRecyclerNotifyListener
 import com.frogobox.recycler.core.IFrogoViewAdapter
-import com.frogobox.ui.ext.load
 import com.google.gson.Gson
 
 class RecyclerGridFragment : BaseFragment<FragmentRecyclerGridBinding>() {
@@ -67,12 +66,11 @@ class RecyclerGridFragment : BaseFragment<FragmentRecyclerGridBinding>() {
                 ) {
                     view.findViewById<TextView>(R.id.frogo_rv_grid_type_1_tv_title).text = data.name
                     view.findViewById<ImageView>(R.id.frogo_rv_grid_type_1_iv_poster)
-                        .load(R.drawable.ic_artist)
+                        .setImageResource(R.drawable.ic_artist)
                 }
             })
             .createLayoutGrid(2)
             .build()
     }
-
 
 }
