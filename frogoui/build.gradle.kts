@@ -61,21 +61,21 @@ android {
 
 dependencies {
 
-    implementation(project(DependencyGradle.FROGO_PATH_CORE_UI))
+    api(project(DependencyGradle.FROGO_PATH_CORE_UI))
 
-    implementation(compose.ui)
-    implementation(compose.runtime)
-    implementation(compose.preview)
-    implementation(compose.uiTooling)
-    implementation(compose.material)
-    implementation(compose.materialIconsExtended)
+    api(compose.ui)
+    api(compose.runtime)
+    api(compose.preview)
+    api(compose.uiTooling)
+    api(compose.material)
+    api(compose.materialIconsExtended)
 
-    implementation(Androidx.appCompat)
-    implementation(Androidx.Compose.activity)
-    implementation(Google.material)
+    api(Androidx.appCompat)
+    api(Androidx.Compose.activity)
+    api(Google.material)
 
-    implementation(GitHub.glide)
-    implementation(Util.hdodenhofCircleImageView)
+    api(GitHub.glide)
+    api(Util.hdodenhofCircleImageView)
 
     kapt(GitHub.glideCompiler)
 
