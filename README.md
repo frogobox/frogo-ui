@@ -20,7 +20,7 @@
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.0.0
+    $version_release = 1.0.1
 
 What's New??
 
@@ -79,14 +79,14 @@ allprojects {
 
     dependencies {
         // library frogo-ui
-        implementation 'com.github.frogobox:frogo-ui:1.0.0'
+        implementation 'com.github.frogobox:frogo-ui:1.0.1'
     }
 
 #### <Option 2> Kotlin DSL Gradle
 
     dependencies {
         // library frogo-ui
-        implementation("com.github.frogobox:frogo-ui:1.0.0")
+        implementation("com.github.frogobox:frogo-ui:1.0.1")
     }
 
 ## Documentation
