@@ -3,7 +3,6 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("org.jetbrains.compose") version DependencyGradle.COMPOSE_MULTIPLATFORM_VERSION
     id("kotlin-kapt")
 }
 
@@ -59,6 +58,10 @@ android {
         compose = true
     }
 
+    composeOptions {
+        kotlinCompilerExtensionVersion = DependencyGradle.COMPOSE_VERSION
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -83,26 +86,23 @@ dependencies {
     implementation(project(DependencyGradle.FROGO_PATH_CORE_UI))
     implementation(project(DependencyGradle.FROGO_PATH_UI))
 
-    implementation(compose.ui)
-    implementation(compose.runtime)
-    implementation(compose.preview)
-    implementation(compose.uiTooling)
-    implementation(compose.material)
-    implementation(compose.materialIconsExtended)
-
-    implementation(Androidx.Core.ktx)
     implementation(Androidx.appCompat)
     implementation(Androidx.constraintLayout)
 
+    implementation(Androidx.Core.ktx)
     implementation(Androidx.Lifecycle.runtimeKtx)
+
+    implementation("androidx.compose.ui:ui-tooling-preview:${Version.Androidx.compose}")
     implementation(Androidx.Compose.activity)
+    implementation(Androidx.Compose.ui)
+    implementation(Androidx.Compose.material)
 
     implementation(Google.material)
     implementation(Google.gson)
 
     implementation(DependencyGradle.FrogoRecyclerView)
 
-    debugImplementation(compose.ui)
-    debugImplementation(compose.uiTooling)
+    debugImplementation(Androidx.Compose.uiTooling)
+    debugImplementation(Androidx.Compose.uiTestManifest)
 
 }

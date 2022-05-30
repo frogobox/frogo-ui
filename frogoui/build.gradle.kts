@@ -3,7 +3,6 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
-    id("org.jetbrains.compose") version DependencyGradle.COMPOSE_MULTIPLATFORM_VERSION
     id("kotlin-kapt")
     `maven-publish`
 }
@@ -41,6 +40,10 @@ android {
         compose = true
     }
 
+    composeOptions {
+        kotlinCompilerExtensionVersion = DependencyGradle.COMPOSE_VERSION
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -64,15 +67,13 @@ dependencies {
 
     api(project(DependencyGradle.FROGO_PATH_CORE_UI))
 
-    api(compose.ui)
-    api(compose.runtime)
-    api(compose.preview)
-    api(compose.uiTooling)
-    api(compose.material)
-    api(compose.materialIconsExtended)
-
     api(Androidx.appCompat)
+
+    api("androidx.compose.ui:ui-tooling-preview:${Version.Androidx.compose}")
     api(Androidx.Compose.activity)
+    api(Androidx.Compose.ui)
+    api(Androidx.Compose.material)
+
     api(Google.material)
 
     api(GitHub.glide)
@@ -80,8 +81,8 @@ dependencies {
 
     kapt(GitHub.glideCompiler)
 
-    debugImplementation(compose.ui)
-    debugImplementation(compose.uiTooling)
+    debugImplementation(Androidx.Compose.uiTooling)
+    debugImplementation(Androidx.Compose.uiTestManifest)
 
 }
 
