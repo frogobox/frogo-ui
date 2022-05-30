@@ -69,10 +69,10 @@ dependencies {
 
     api(Androidx.appCompat)
 
-    api("androidx.compose.ui:ui-tooling-preview:${Version.Androidx.compose}")
     api(Androidx.Compose.activity)
-    api(Androidx.Compose.ui)
     api(Androidx.Compose.material)
+    api(Androidx.Compose.ui)
+    api(Androidx.Compose.uiToolingPreview)
 
     api(Google.material)
 

@@ -92,10 +92,10 @@ dependencies {
     implementation(Androidx.Core.ktx)
     implementation(Androidx.Lifecycle.runtimeKtx)
 
-    implementation("androidx.compose.ui:ui-tooling-preview:${Version.Androidx.compose}")
     implementation(Androidx.Compose.activity)
-    implementation(Androidx.Compose.ui)
     implementation(Androidx.Compose.material)
+    implementation(Androidx.Compose.ui)
+    implementation(Androidx.Compose.uiToolingPreview)
 
     implementation(Google.material)
     implementation(Google.gson)
