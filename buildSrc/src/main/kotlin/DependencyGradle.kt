@@ -21,6 +21,6 @@ object DependencyGradle {
     const val FROGO_PATH_CORE_UI = ":frogocoreui"
     const val FROGO_PATH_UI = ":frogoui"
 
-    const val FrogoRecyclerView = "com.github.amirisback:frogo-recycler-view:4.1.6"
+    const val FrogoRecyclerView = "com.github.amirisback:frogo-recycler-view:4.2.2"
 
 }
