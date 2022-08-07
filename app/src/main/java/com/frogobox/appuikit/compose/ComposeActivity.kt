@@ -12,8 +12,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.frogobox.appuikit.MainActivity
 import com.frogobox.appuikit.model.People
 import com.frogobox.appuikit.ui.theme.FrogoAndroidUIKitTheme
-import com.frogobox.coreui.DataBuilder
-import com.frogobox.coreui.FrogoComposeListItemType1
+import com.frogobox.ui.compose.DataBuilder
+import com.frogobox.ui.compose.FrogoComposeListItemType1
 import com.frogobox.recycler.compose.FrogoLazyColumn
 
 class ComposeActivity : ComponentActivity() {

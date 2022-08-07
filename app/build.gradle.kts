@@ -83,7 +83,6 @@ android {
 
 dependencies {
 
-    implementation(project(DependencyGradle.FROGO_PATH_CORE_UI))
     implementation(project(DependencyGradle.FROGO_PATH_UI))
 
     implementation(Androidx.appCompat)

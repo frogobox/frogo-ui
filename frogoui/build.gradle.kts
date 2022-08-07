@@ -65,8 +65,6 @@ android {
 
 dependencies {
 
-    api(project(DependencyGradle.FROGO_PATH_CORE_UI))
-
     api(Androidx.appCompat)
 
     api(Androidx.Compose.activity)
