@@ -68,7 +68,7 @@ dependencies {
     api(Androidx.appCompat)
 
     api(Androidx.Compose.activity)
-    api(Androidx.Compose.material)
+    api(Androidx.Compose.material("1.3.1"))
     api(Androidx.Compose.ui)
     api(Androidx.Compose.uiToolingPreview)
 
