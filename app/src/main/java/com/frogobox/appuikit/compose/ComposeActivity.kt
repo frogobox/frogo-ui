@@ -9,12 +9,8 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.frogobox.appuikit.MainActivity
 import com.frogobox.appuikit.model.People
 import com.frogobox.appuikit.ui.theme.FrogoAndroidUIKitTheme
-import com.frogobox.ui.compose.DataBuilder
-import com.frogobox.ui.compose.FrogoComposeListItemType1
-import com.frogobox.recycler.compose.FrogoLazyColumn
 
 class ComposeActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,11 +20,7 @@ class ComposeActivity : ComponentActivity() {
             FrogoAndroidUIKitTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    FrogoLazyColumn(setupData()) { data ->
-                        FrogoComposeListItemType1(DataBuilder(textTitle = data.name)) {
-                            startActivity(Intent(this@ComposeActivity, MainActivity::class.java))
-                        }
-                    }
+
                 }
             }
         }

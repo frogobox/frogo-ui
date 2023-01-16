@@ -17,4 +17,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "FrogoUI"
-include(":app", ":frogoui")
+include(":app", ":frogoui", ":frogocoreui")
