@@ -65,17 +65,17 @@ android {
 
 dependencies {
 
-    api(Androidx.appCompat)
+    implementation(Androidx.appCompat)
 
-    api(Androidx.Compose.activity)
-    api(Androidx.Compose.material("1.3.1"))
-    api(Androidx.Compose.ui)
-    api(Androidx.Compose.uiToolingPreview)
+    implementation(Androidx.Compose.activity)
+    implementation(Androidx.Compose.material("1.3.1"))
+    implementation(Androidx.Compose.ui)
+    implementation(Androidx.Compose.uiToolingPreview)
 
-    api(Google.material)
+    implementation(Google.material)
 
-    api(GitHub.glide)
-    api(Util.hdodenhofCircleImageView)
+    implementation(GitHub.glide)
+    implementation(Util.hdodenhofCircleImageView)
 
     kapt(GitHub.glideCompiler)
 
