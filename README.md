@@ -13,14 +13,14 @@
 - License [Click Here](https://github.com/frogobox/frogo-ui/blob/master/LICENSE)
 
 ## Screen Shoot
-| UI KIT LIST        |  UI KIT GRID              |
-|:------------------:|:-------------------------:|
-|<img width="200px" height="360px" src="docs/image/ss_home_list.png"> | <img width="200px" height="360px" src="docs/image/ss_home_grid.png"> |
+|                             UI KIT LIST                              |                             UI KIT GRID                              |
+|:--------------------------------------------------------------------:|:--------------------------------------------------------------------:|
+| <img width="200px" height="360px" src="docs/image/ss_home_list.png"> | <img width="200px" height="360px" src="docs/image/ss_home_grid.png"> |
 
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.1.3
+    $version_release = 1.1.4
 
 What's New??
 
@@ -79,14 +79,14 @@ allprojects {
 
     dependencies {
         // library frogo-ui
-        implementation 'com.github.frogobox:frogo-ui:1.1.3'
+        implementation 'com.github.frogobox:frogo-ui:1.1.4'
     }
 
 #### <Option 2> Kotlin DSL Gradle
 
     dependencies {
         // library frogo-ui
-        implementation("com.github.frogobox:frogo-ui:1.1.3")
+        implementation("com.github.frogobox:frogo-ui:1.1.4")
     }
 
 ## Documentation
