@@ -45,19 +45,13 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
     tasks.withType<KotlinCompile> {
         kotlinOptions {
-            jvmTarget = "11"
-        }
-    }
-
-    packagingOptions {
-        resources {
-            excludes += setOf("META-INF/AL2.0", "META-INF/LGPL2.1")
+            jvmTarget = "17"
         }
     }
 
