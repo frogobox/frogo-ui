@@ -1,4 +1,4 @@
-[![ScreenShoot Apps](https://raw.githubusercontent.com/frogobox/frogo-ui/master/docs/image/ss_banner.png?raw=true)
+![ScreenShoot Apps](https://raw.githubusercontent.com/frogobox/frogo-ui/master/docs/image/ss_banner.png?raw=true)
 
 ## About This Project (release 👷🔧️👷‍♀️⛏)
 [![](https://jitpack.io/v/frogobox/frogo-ui.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-ui)
