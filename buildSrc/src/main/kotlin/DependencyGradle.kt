@@ -18,8 +18,8 @@ object DependencyGradle {
     const val COMPOSE_MULTIPLATFORM_VERSION = Version.Androidx.composeMultiPlatform
     const val COMPOSE_VERSION = Version.Androidx.composeCompiler
 
-    const val FROGO_PATH_CORE_UI = ":core-ui"
-    const val FROGO_PATH_UI = ":core-ui-android"
+    const val FROGO_PATH_CORE_UI = ":${ProjectSetting.MODULE_NAME_UI}"
+    const val FROGO_PATH_UI = ":${ProjectSetting.MODULE_NAME_CORE_UI}"
 
     const val FrogoRecyclerView = "com.github.amirisback:frogo-recycler-view:4.3.5"
 
