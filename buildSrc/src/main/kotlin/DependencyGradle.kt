@@ -14,12 +14,12 @@
 object DependencyGradle {
 
     // dependencies version
-    const val KOTLIN_VERSION = "1.8.20"
+    const val KOTLIN_VERSION = Version.JetBrains.kotlin
     const val COMPOSE_MULTIPLATFORM_VERSION = Version.Androidx.composeMultiPlatform
-    const val COMPOSE_VERSION = "1.4.6"
+    const val COMPOSE_VERSION = Version.Androidx.composeCompiler
 
-    const val FROGO_PATH_CORE_UI = ":frogocoreui"
-    const val FROGO_PATH_UI = ":frogoui"
+    const val FROGO_PATH_CORE_UI = ":core-ui"
+    const val FROGO_PATH_UI = ":core-ui-android"
 
     const val FrogoRecyclerView = "com.github.amirisback:frogo-recycler-view:4.3.5"
 

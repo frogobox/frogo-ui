@@ -17,4 +17,8 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "FrogoUI"
-include(":app", ":frogoui", ":frogocoreui")
+include(
+    ":app",
+    ":core-ui",
+    ":core-ui-android"
+)
