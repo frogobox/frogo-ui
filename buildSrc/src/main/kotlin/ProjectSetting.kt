@@ -22,14 +22,14 @@ object ProjectSetting {
     const val LIBRARY_NAME_UI = "ui"
     const val LIBRARY_NAME_CORE_UI = "coreui"
 
-    const val MODULE_NAME_UI = "frogoui"
-    const val MODULE_NAME_CORE_UI = "frogocoreui"
+    const val MODULE_NAME_UI = "core-ui"
+    const val MODULE_NAME_CORE_UI = "core-ui-android"
 
     // ---------------------------------------------------------------------------------------------
 
     const val VERSION_MAJOR = 1
     const val VERSION_MINOR = 1
-    const val VERSION_PATCH = 7
+    const val VERSION_PATCH = 8
 
     // ---------------------------------------------------------------------------------------------
 
