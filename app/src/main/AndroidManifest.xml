@@ -11,19 +11,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/ThemeUI">
         <activity
             android:name=".animation.SampleFrogoAnimationTransitionActivity"
             android:exported="false"
-            android:theme="@style/AppTheme.Transition" />
+            android:theme="@style/ThemeUI.Transition" />
         <activity
             android:name=".animation.SampleFrogoAnimationActivity"
             android:exported="false"
-            android:theme="@style/AppTheme.Transition" />
+            android:theme="@style/ThemeUI.Transition" />
         <activity
             android:name=".compose.ComposeActivity"
             android:exported="true"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/ThemeUI" />
         <activity android:name=".recycler.RecyclerViewDetailActivity" />
         <activity android:name=".recycler.RecyclerViewActivity" />
         <activity

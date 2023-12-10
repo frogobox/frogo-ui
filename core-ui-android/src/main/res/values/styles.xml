@@ -67,7 +67,7 @@
 
     <style name="FrogoTvListDescription" parent="frogoBaseAreaWrapContent">
         <item name="android:maxLines">3</item>
-        <item name="android:textColor">@color/frogoColorBlack</item>
+        <item name="android:textColor">@color/frogoColorText</item>
         <item name="android:textSize">@dimen/frogo_dimen_font_11sp</item>
     </style>
 
