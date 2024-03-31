@@ -3,7 +3,6 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
-    id("kotlin-kapt")
     `maven-publish`
 }
 
@@ -14,7 +13,6 @@ android {
 
     defaultConfig {
         minSdk = ProjectSetting.PROJECT_MIN_SDK
-        targetSdk = ProjectSetting.PROJECT_TARGET_SDK
 
         multiDexEnabled = true
         vectorDrawables.useSupportLibrary = true
@@ -69,10 +67,7 @@ dependencies {
 
     implementation(Google.material)
 
-    implementation(GitHub.glide)
     api(Util.hdodenhofCircleImageView)
-
-    kapt(GitHub.glideCompiler)
 
     debugImplementation(Androidx.Compose.uiTooling)
     debugImplementation(Androidx.Compose.uiTestManifest)
