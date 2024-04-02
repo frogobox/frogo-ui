@@ -79,20 +79,20 @@ allprojects {
 
     dependencies {
         // library frogo-ui
-        implementation 'com.github.frogobox:frogo-ui:2.0.0'
+        implementation 'com.github.frogobox:frogo-ui:2.0.1'
 
         // library frogo-ui for desktop
-        implementation 'com.github.frogobox.frogo-ui:core-ui:2.0.0'
+        implementation 'com.github.frogobox.frogo-ui:core-ui:2.0.1'
     }
 
 #### <Option 2> Kotlin DSL Gradle
 
     dependencies {
         // library frogo-ui
-        implementation("com.github.frogobox:frogo-ui:2.0.0")
+        implementation("com.github.frogobox:frogo-ui:2.0.1")
 
         // library frogo-ui for desktop
-        implementation("com.github.frogobox.frogo-ui:core-ui:2.0.0")
+        implementation("com.github.frogobox.frogo-ui:core-ui:2.0.1")
     }
 
 ## Documentation
