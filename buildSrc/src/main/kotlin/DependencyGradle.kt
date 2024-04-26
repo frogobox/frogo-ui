@@ -1,4 +1,4 @@
-/*
+/**
  * Created by faisalamir on 19/09/21
  * FrogoRecyclerView
  * -----------------------------------------
