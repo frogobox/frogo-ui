@@ -58,19 +58,18 @@ android {
 
 dependencies {
 
-    implementation(Androidx.appCompat)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.compose.material)
+    implementation(libs.androidx.compose.ui)
 
-    implementation(Androidx.Compose.activity)
-    implementation(Androidx.Compose.material)
-    implementation(Androidx.Compose.ui)
-    implementation(Androidx.Compose.uiToolingPreview)
+    implementation(libs.material)
 
-    implementation(Google.material)
+    api(libs.github.circleimageview)
 
-    api(Util.hdodenhofCircleImageView)
-
-    debugImplementation(Androidx.Compose.uiTooling)
-    debugImplementation(Androidx.Compose.uiTestManifest)
+    debugImplementation(libs.androidx.compose.ui.tooling)
+    debugImplementation(libs.androidx.compose.ui.tooling.preview)
+    debugImplementation(libs.androidx.compose.ui.test.manifest)
 
 }
 

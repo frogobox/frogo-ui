@@ -66,6 +66,14 @@ class RecyclerListFragment : BaseFragment<FragmentRecyclerListBinding>() {
                 ) {
                     view.findViewById<TextView>(R.id.frogo_rv_list_type_1_tv_title).text = data.name
                 }
+
+                override fun areContentsTheSame(oldItem: Layout, newItem: Layout): Boolean {
+                    return oldItem == newItem
+                }
+
+                override fun areItemsTheSame(oldItem: Layout, newItem: Layout): Boolean {
+                    return oldItem == newItem
+                }
             })
             .createLayoutLinearVertical(false)
             .build()

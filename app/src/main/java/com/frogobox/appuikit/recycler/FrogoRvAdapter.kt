@@ -5,6 +5,7 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import com.frogobox.appuikit.R
+import com.frogobox.appuikit.model.Main
 import com.frogobox.recycler.core.FrogoRecyclerNotifyListener
 import com.frogobox.recycler.core.IFrogoViewAdapter
 
@@ -55,6 +56,14 @@ object FrogoRvAdapter {
                                 R.string.frogo_dummy_title
                             )
                     }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
                 }
             }
 
@@ -90,6 +99,14 @@ object FrogoRvAdapter {
                             context.getString(
                                 R.string.frogo_dummy_subtitle
                             )
+                    }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
                     }
                 }
             }
@@ -131,6 +148,14 @@ object FrogoRvAdapter {
                                 R.string.frogo_dummy_desc
                             )
                     }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
                 }
             }
 
@@ -166,6 +191,14 @@ object FrogoRvAdapter {
                             .setImageResource(
                                 R.drawable.ic_artist
                             )
+                    }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
                     }
                 }
             }
@@ -206,6 +239,14 @@ object FrogoRvAdapter {
                             .setImageResource(
                                 R.drawable.ic_artist
                             )
+                    }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
                     }
                 }
             }
@@ -251,6 +292,14 @@ object FrogoRvAdapter {
                                 R.drawable.ic_artist
                             )
                     }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
                 }
             }
 
@@ -286,6 +335,14 @@ object FrogoRvAdapter {
                             .setImageResource(
                                 R.drawable.ic_artist
                             )
+                    }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
                     }
                 }
             }
@@ -327,6 +384,14 @@ object FrogoRvAdapter {
                                 R.drawable.ic_artist
                             )
                     }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
                 }
             }
 
@@ -362,6 +427,14 @@ object FrogoRvAdapter {
                             .setImageResource(
                                 R.drawable.ic_artist
                             )
+                    }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
                     }
                 }
             }
@@ -402,6 +475,13 @@ object FrogoRvAdapter {
                             .setImageResource(
                                 R.drawable.ic_artist
                             )
+                    }
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
                     }
                 }
             }
@@ -447,6 +527,14 @@ object FrogoRvAdapter {
                                 R.drawable.ic_artist
                             )
                     }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
                 }
             }
 
@@ -478,6 +566,14 @@ object FrogoRvAdapter {
                             context.getString(
                                 R.string.frogo_dummy_title
                             )
+                    }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
                     }
                 }
             }
@@ -514,6 +610,14 @@ object FrogoRvAdapter {
                             .setImageResource(
                                 R.drawable.ic_artist
                             )
+                    }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
                     }
                 }
             }
@@ -554,6 +658,14 @@ object FrogoRvAdapter {
                             .setImageResource(
                                 R.drawable.ic_artist
                             )
+                    }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
                     }
                 }
             }
@@ -599,6 +711,14 @@ object FrogoRvAdapter {
                                 R.drawable.ic_artist
                             )
                     }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
                 }
             }
 
@@ -634,6 +754,14 @@ object FrogoRvAdapter {
                             .setImageResource(
                                 R.drawable.ic_artist
                             )
+                    }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
                     }
                 }
             }
@@ -674,6 +802,14 @@ object FrogoRvAdapter {
                             .setImageResource(
                                 R.drawable.ic_artist
                             )
+                    }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
                     }
                 }
             }
@@ -719,6 +855,14 @@ object FrogoRvAdapter {
                                 R.drawable.ic_artist
                             )
                     }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
                 }
             }
 
@@ -751,6 +895,14 @@ object FrogoRvAdapter {
                                 R.drawable.ic_artist
                             )
                     }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
                 }
             }
 
@@ -779,6 +931,14 @@ object FrogoRvAdapter {
                         notifyListener: FrogoRecyclerNotifyListener<String>
                     ) {
 
+                    }
+
+                    override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
+                    }
+
+                    override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+                        return oldItem == newItem
                     }
                 }
             }

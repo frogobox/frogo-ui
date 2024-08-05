@@ -68,6 +68,14 @@ class RecyclerGridFragment : BaseFragment<FragmentRecyclerGridBinding>() {
                     view.findViewById<ImageView>(R.id.frogo_rv_grid_type_1_iv_poster)
                         .setImageResource(R.drawable.ic_artist)
                 }
+
+                override fun areContentsTheSame(oldItem: Layout, newItem: Layout): Boolean {
+                    return oldItem == newItem
+                }
+
+                override fun areItemsTheSame(oldItem: Layout, newItem: Layout): Boolean {
+                    return oldItem == newItem
+                }
             })
             .createLayoutGrid(2)
             .build()

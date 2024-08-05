@@ -64,6 +64,14 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
                 ) {
                     view.findViewById<TextView>(R.id.frogo_rv_list_type_1_tv_title).text = data.name
                 }
+
+                override fun areContentsTheSame(oldItem: Main, newItem: Main): Boolean {
+                    return oldItem == newItem
+                }
+
+                override fun areItemsTheSame(oldItem: Main, newItem: Main): Boolean {
+                    return oldItem == newItem
+                }
             })
             .createLayoutLinearVertical(false)
             .build()

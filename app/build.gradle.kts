@@ -79,23 +79,27 @@ dependencies {
 
     implementation(project(DependencyGradle.FROGO_PATH_UI))
 
-    implementation(Androidx.appCompat)
-    implementation(Androidx.constraintLayout)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.constraintlayout)
 
-    implementation(Androidx.Core.ktx)
-    implementation(Androidx.Lifecycle.runtimeKtx)
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
 
-    implementation(Androidx.Compose.activity)
-    implementation(Androidx.Compose.material)
-    implementation(Androidx.Compose.ui)
-    implementation(Androidx.Compose.uiToolingPreview)
+    implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.compose.material)
+    implementation(libs.androidx.compose.ui)
 
-    implementation(Google.material)
-    implementation(Google.gson)
+    implementation(libs.material)
+    implementation(libs.gson)
 
-    implementation(DependencyGradle.FrogoRecyclerView)
+    implementation(libs.frogo.recyclerview)
 
-    debugImplementation(Androidx.Compose.uiTooling)
-    debugImplementation(Androidx.Compose.uiTestManifest)
+    implementation(libs.material)
+
+    api(libs.github.circleimageview)
+
+    debugImplementation(libs.androidx.compose.ui.tooling)
+    debugImplementation(libs.androidx.compose.ui.tooling.preview)
+    debugImplementation(libs.androidx.compose.ui.test.manifest)
 
 }

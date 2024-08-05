@@ -57,7 +57,7 @@ publishing {
     }
 
     repositories {
-        maven(Util.jitpackUrl)
+        maven("https://jitpack.io")
     }
 
 }
