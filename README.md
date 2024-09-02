@@ -20,11 +20,12 @@
 ## Version Release
 This Is Latest Release
 
-    $version_release = 2.0.3
+    $version_release = 2.0.4
 
 What's New??
 
     * Avaiable For Android And Desktop *
+    * Update to libs.versions.toml *
 
 ## Include Library
 <table>
@@ -76,24 +77,44 @@ allprojects {
 ### Step 2. Add the dependency (build.gradle : Module)
 
 #### <Option 1> Groovy Gradle
+```groovy
+dependencies {
+    // library frogo-ui
+    implementation 'com.github.frogobox:frogo-ui:2.0.4'
 
-    dependencies {
-        // library frogo-ui
-        implementation 'com.github.frogobox:frogo-ui:2.0.3'
-
-        // library frogo-ui for desktop
-        implementation 'com.github.frogobox.frogo-ui:core-ui:2.0.3'
-    }
+    // library frogo-ui for desktop
+    implementation 'com.github.frogobox.frogo-ui:core-ui:2.0.4'
+}
+```
 
 #### <Option 2> Kotlin DSL Gradle
+```groovy
+dependencies {
+    // library frogo-ui
+    implementation("com.github.frogobox:frogo-ui:2.0.4")
 
-    dependencies {
-        // library frogo-ui
-        implementation("com.github.frogobox:frogo-ui:2.0.3")
+    // library frogo-ui for desktop
+    implementation("com.github.frogobox.frogo-ui:core-ui:2.0.4")
+}
+```
 
-        // library frogo-ui for desktop
-        implementation("com.github.frogobox.frogo-ui:core-ui:2.0.3")
-    }
+#### <Option 3> libs.versions.toml
+```yml
+[versions]
+frogoui = "2.0.4"
+
+[libraries]
+frogo-ui = { group = "com.github.frogobox", name = "frogo-ui", version.ref = "frogoui" }
+frogo-ui-core = { group = "com.github.frogobox.frogo-ui", name = "core-ui", version.ref = "frogoui" }
+
+dependencies {
+  // library frogo-ui
+  implementation(libs.frogo.ui)
+
+  // library frogo-ui for desktop
+  implementation(libs.frogo.ui.core)
+}
+```
 
 ## Documentation
 - Layouts

@@ -14,7 +14,6 @@
 object DependencyGradle {
 
     // dependencies version
-    const val KOTLIN_VERSION = "1.9.23" // https://kotlinlang.org/docs/releases.html#release-details
     const val COMPOSE_MULTIPLATFORM_VERSION = "1.6.1" // https://github.com/JetBrains/compose-jb
     const val COMPOSE_VERSION = "1.5.12" // https://developer.android.com/jetpack/androidx/releases/compose
 
