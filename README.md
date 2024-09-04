@@ -20,7 +20,7 @@
 ## Version Release
 This Is Latest Release
 
-    $version_release = 2.0.4
+    $version_release = 2.0.5
 
 What's New??
 
@@ -80,10 +80,10 @@ allprojects {
 ```groovy
 dependencies {
     // library frogo-ui
-    implementation 'com.github.frogobox:frogo-ui:2.0.4'
+    implementation 'com.github.frogobox:frogo-ui:2.0.5'
 
     // library frogo-ui for desktop
-    implementation 'com.github.frogobox.frogo-ui:core-ui:2.0.4'
+    implementation 'com.github.frogobox.frogo-ui:core-ui:2.0.5'
 }
 ```
 
@@ -91,17 +91,17 @@ dependencies {
 ```groovy
 dependencies {
     // library frogo-ui
-    implementation("com.github.frogobox:frogo-ui:2.0.4")
+    implementation("com.github.frogobox:frogo-ui:2.0.5")
 
     // library frogo-ui for desktop
-    implementation("com.github.frogobox.frogo-ui:core-ui:2.0.4")
+    implementation("com.github.frogobox.frogo-ui:core-ui:2.0.5")
 }
 ```
 
 #### <Option 3> libs.versions.toml
 ```yml
 [versions]
-frogoui = "2.0.4"
+frogoui = "2.0.5"
 
 [libraries]
 frogo-ui = { group = "com.github.frogobox", name = "frogo-ui", version.ref = "frogoui" }
