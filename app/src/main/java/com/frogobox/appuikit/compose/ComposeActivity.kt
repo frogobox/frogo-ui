@@ -7,7 +7,6 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.tooling.preview.Preview
 import com.frogobox.appuikit.model.People
 import com.frogobox.appuikit.ui.theme.FrogoAndroidUIKitTheme
 
@@ -42,7 +41,6 @@ fun Greeting(text: String) {
     Text(text = text)
 }
 
-@Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun DefaultPreview() {
     FrogoAndroidUIKitTheme {
