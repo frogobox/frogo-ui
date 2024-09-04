@@ -14,8 +14,8 @@
 object DependencyGradle {
 
     // dependencies version
-    const val COMPOSE_MULTIPLATFORM_VERSION = "1.6.1" // https://github.com/JetBrains/compose-jb
-    const val COMPOSE_VERSION = "1.5.12" // https://developer.android.com/jetpack/androidx/releases/compose
+    const val COMPOSE_MULTIPLATFORM_VERSION = "1.6.11" // https://github.com/JetBrains/compose-jb
+    const val COMPOSE_VERSION = "1.5.14" // https://developer.android.com/jetpack/androidx/releases/compose
 
     const val FROGO_PATH_CORE_UI = ":${ProjectSetting.MODULE_NAME_UI}"
     const val FROGO_PATH_UI = ":${ProjectSetting.MODULE_NAME_CORE_UI}"
